@@ -1,0 +1,41 @@
+name: reminder_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  hive: ^2.0.3
+  hive_flutter: ^1.0.0
+  google_fonts: ^2.1.0
+  provider: ^5.0.0
+  flutter_local_notifications: ^8.2.0
+  rxdart: ^0.27.2
+  intl: ^0.17.0
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.12.2
+  hive_generator: ^1.0.1
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - lib\assets\notification.png
+  uses-material-design: true
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: fonts/Helvetica.ttf
+    - family: Helvetica-Bold
+      fonts:
+        - asset: fonts/Helvetica-Bold.ttf
